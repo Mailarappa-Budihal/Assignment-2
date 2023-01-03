@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 
-////router.post("/", controller.postData)
+//router.post("/", controller.postData)
 router.get("/getData", controller.getData)
 
 module.exports = router
